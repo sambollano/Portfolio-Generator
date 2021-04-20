@@ -1,3 +1,4 @@
+
 // create the about section
 const generateAbout = aboutText => {
     if (!aboutText) {
@@ -73,7 +74,6 @@ const generateAbout = aboutText => {
       <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="style.css">
     </head>
-    
     <body>
       <header>
         <div class="container flex-row justify-space-between align-center py-3">
