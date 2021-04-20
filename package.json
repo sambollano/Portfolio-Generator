@@ -1,22 +1,19 @@
 {
-  "name": "portfolio-generator",
+  "name": "project",
   "version": "1.0.0",
-  "description": "Module 9 Project",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/sample.js",
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sambollano/Portfolio-Generator.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sambollano/Portfolio-Generator/issues"
-  },
-  "homepage": "https://github.com/sambollano/Portfolio-Generator#readme",
   "dependencies": {
-    "inquirer": "^8.0.0"
+    "inquirer": "^7.0.3"
   }
 }
