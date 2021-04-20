@@ -1,4 +1,5 @@
-
+module.exports = (name, github) => {
+    return `
     <!DOCTYPE html>
     <html lang="en">
     
@@ -10,12 +11,10 @@
     </head>
     
     <body>
-
-
-      <h1>Samantha</h1>
-
-      <h2><a href="https://github.com/sambollano">Github</a></h2>
-      
+      <h1>${name}</h1>
+      <h2><a href="https://github.com/${github}">Github</a></h2>
     </body>
     </html>
-    
+    `;
+  };
+  
