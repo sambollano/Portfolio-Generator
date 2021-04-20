@@ -65,7 +65,6 @@ const generateAbout = aboutText => {
     return `
     <!DOCTYPE html>
     <html lang="en">
-
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -75,7 +74,6 @@ const generateAbout = aboutText => {
       <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="style.css">
     </head>
-
     <body>
       <header>
         <div class="container flex-row justify-space-between align-center py-3">
@@ -94,7 +92,6 @@ const generateAbout = aboutText => {
       <footer class="container text-center py-3">
         <h3 class="text-dark">&copy; ${new Date().getFullYear()} by ${header.name}</h3>
       </footer>
-
     </body>
     </html>
     `;

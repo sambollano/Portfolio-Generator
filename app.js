@@ -1,5 +1,5 @@
-
 const fs = require('fs');
+
 const inquirer = require('inquirer');
 const generatePage = require('./src/page-template');
 
@@ -20,8 +20,8 @@ fs.writeFile('./index.html', pageHTML, err => {
 
 printProfileData(profileDataArgs);
 
-const inquirer = require('inquirer');
 
+const inquirer = require('inquirer');
 const generatePage = require('./src/page-template');
 
 const promptUser = () => {
